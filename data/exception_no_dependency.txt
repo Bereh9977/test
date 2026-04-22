@@ -1,0 +1,2 @@
+package: app, v1.0
+requires: core, v1.0

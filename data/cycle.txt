@@ -1,0 +1,8 @@
+package: A, v1
+requires: B, v1
+
+package: B, v1
+requires: C, v1
+
+package: C, v1
+requires: A, v1

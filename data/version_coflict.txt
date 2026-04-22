@@ -1,0 +1,8 @@
+package: app, v1.0
+requires: logger, v1.0
+
+package: admin, v1.0
+requires: logger, v2.0
+
+package: logger, v1.0
+package: logger, v2.0

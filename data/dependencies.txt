@@ -1,0 +1,19 @@
+package: core-module, v1.0
+
+package: logger, v2.1
+requires: core-module, v1.0
+
+package: database-connector, v1.5
+requires: core-module, v1.0
+requires: logger, v2.1
+
+package: auth-module, v3.0
+requires: database-connector, v1.5
+requires: crypto-utils, v1.2
+
+package: crypto-utils, v1.2
+requires: core-module, v1.0
+
+package: web-server, v4.0
+requires: auth-module, v3.0
+requires: logger, v2.1
