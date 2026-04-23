@@ -1,6 +1,6 @@
 package org.example.packagemanager;
 
-import java.util.List;
+import java.util.*;
 
 public class Main
 {
